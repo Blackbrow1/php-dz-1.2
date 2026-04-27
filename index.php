@@ -1,5 +1,11 @@
 <?php
-$variable = 3.14;
+// $variable = 3.14;
+// $variable = 3;
+$variable = 'one';
+// $variable = true;
+// $variable = null;
+// $variable = [];
+// $variable = fopen('php://memory', 'r');
 
 if (is_bool($variable)) {
     $type = 'bool';
@@ -15,6 +21,5 @@ if (is_bool($variable)) {
     $type = 'other';
 }
 
-echo "type is $type";
-
+echo "$type is $variable";
 ?>
