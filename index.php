@@ -1,7 +1,7 @@
 <?php
-// $variable = 3.14;
+$variable = 3.14;
 // $variable = 3;
-$variable = 'one';
+// $variable = 'one';
 // $variable = true;
 // $variable = null;
 // $variable = [];
@@ -21,5 +21,5 @@ if (is_bool($variable)) {
     $type = 'other';
 }
 
-echo "$type is $variable";
+echo "type is $type";
 ?>
